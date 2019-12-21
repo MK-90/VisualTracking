@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="kcf_test" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/mk90/Documents/KCFcpp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/mk90/Documents/KCFcpp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/mk90/Documents/KCFcpp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="KCF">
+         <Option output="/home/mk90/Documents/KCFcpp/build/KCF" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mk90/Documents/KCFcpp/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/mk90/Documents/KCFcpp/src" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 KCF" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="KCF/fast">
+         <Option output="/home/mk90/Documents/KCFcpp/build/KCF" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/mk90/Documents/KCFcpp/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/mk90/Documents/KCFcpp/src" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 KCF/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mk90/Documents/KCFcpp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/mk90/Documents/KCFcpp/src/fhog.cpp">
+         <Option target="KCF"/>
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/src/fhog.hpp">
+         <Option target="KCF"/>
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/src/kcftracker.cpp">
+         <Option target="KCF"/>
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/src/kcftracker.hpp">
+         <Option target="KCF"/>
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/src/runtracker.cpp">
+         <Option target="KCF"/>
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/mk90/Documents/KCFcpp/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
