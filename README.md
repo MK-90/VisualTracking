@@ -9,5 +9,5 @@ Some code in visual tracking
  ## 2. ColorNaming
 很多目标跟踪算法用到的CN特征
 paper：
-J. van de Weijer, C. Schmid, J. J. Verbeek, and D. Larlus. Learning color names for real-world applications. TIP,
+J. van de Weijer, C. Schmid, J. J. Verbeek, and D. Larlus. Learning color names for real-world applications. TIP,
 18(7):1512–1524, 2009. 2, 3
