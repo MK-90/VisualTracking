@@ -16,3 +16,6 @@ J. van de Weijer, C. Schmid, J. J. Verbeek, and D. Larlus. Learning color names 
  CN目标跟踪算法，出自：
 Danelljan M, Shahbaz Khan F, Felsberg M, et al. Adaptive color attributes for real-time visual tracking[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2014: 1090-1097.
 这里是matlab代码，里面根据自己的理解做了一些注释
+
+ ## 4. KCF_HC
+ KCF算法中加入了CN特征，里面有代码注释
