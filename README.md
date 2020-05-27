@@ -11,3 +11,7 @@ Some code in visual tracking
 paper：
 J. van de Weijer, C. Schmid, J. J. Verbeek, and D. Larlus. Learning color names for real-world applications. TIP,
 18(7):1512–1524, 2009. 2, 3
+
+ ## 3. ColorTracking_code
+ CN目标跟踪算法，出自：
+Danelljan M, Shahbaz Khan F, Felsberg M, et al. Adaptive color attributes for real-time visual tracking[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2014: 1090-1097.
