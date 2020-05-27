@@ -7,7 +7,7 @@ Some code in visual tracking
   https://blog.csdn.net/weixin_44100850/article/details/103592168
  
  ## 2. KCF
- KCF的matlab代码
+ KCF的matlab代码，里面ncc.m、vot.m、kcf.m三个文件是使用vot数据集时候使用的接口函数，原代码里面没有，是后来自己加的。
  
  ## 3. KCF_HC
  KCF算法中加入了CN特征，里面有代码注释
